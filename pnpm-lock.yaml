@@ -64,8 +64,8 @@ importers:
         specifier: 17.6.0
         version: 17.6.0
       globby:
-        specifier: 16.2.0
-        version: 16.2.0
+        specifier: 16.2.1
+        version: 16.2.1
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -1128,8 +1128,8 @@ packages:
     resolution: {integrity: sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==}
     engines: {node: '>=18'}
 
-  globby@16.2.0:
-    resolution: {integrity: sha512-QrJia2qDf5BB/V6HYlDTs0I0lBahyjLzpGQg3KT7FnCdTonAyPy2RtY802m2k4ALx6Dp752f82WsOczEVr3l6Q==}
+  globby@16.2.1:
+    resolution: {integrity: sha512-JmsqJalahxxgW8V2ecSQ2G7UjPlI9cpKdrkG9KoNiXhd/YslXOTEB0cViENWUznuovIuNT+FkMbraDGjr4FCUg==}
     engines: {node: '>=20'}
 
   graceful-fs@4.2.11:
@@ -1152,6 +1152,10 @@ packages:
 
   ignore@7.0.5:
     resolution: {integrity: sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==}
+    engines: {node: '>= 4'}
+
+  ignore@7.0.6:
+    resolution: {integrity: sha512-BAg6QkE8W+TuQLrrw0Ugr7HegXduRuuj8/ti2kSOc+jz1dmx8/WNcjr6XGnq5YpDWxFwwaavqD0+jIUOKelTsw==}
     engines: {node: '>= 4'}
 
   imurmurhash@0.1.4:
@@ -2878,11 +2882,11 @@ snapshots:
 
   globals@17.6.0: {}
 
-  globby@16.2.0:
+  globby@16.2.1:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       fast-glob: 3.3.3
-      ignore: 7.0.5
+      ignore: 7.0.6
       is-path-inside: 4.0.0
       slash: 5.1.0
       unicorn-magic: 0.4.0
@@ -2898,6 +2902,8 @@ snapshots:
   ignore@5.3.2: {}
 
   ignore@7.0.5: {}
+
+  ignore@7.0.6: {}
 
   imurmurhash@0.1.4: {}
 
