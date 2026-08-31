@@ -18,7 +18,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/vite": "4.3.3",
-		"dayjs": "1.11.22",
+		"dayjs": "1.11.23",
 		"firebase": "12.18.0",
 		"svelte": "5.56.10"
 	},
