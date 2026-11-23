@@ -17,7 +17,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "4.3.3",
+		"@tailwindcss/vite": "4.3.5",
 		"dayjs": "1.11.23",
 		"firebase": "12.19.0",
 		"svelte": "5.57.3"
